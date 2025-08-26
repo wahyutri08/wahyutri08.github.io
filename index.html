@@ -53,7 +53,7 @@
 	<body data-plugin-scroll-spy data-plugin-options="{'target': '.wrapper-spy'}">
 
 		<div class="body">
-			<header id="header" class="header-floating-icons" data-plugin-options="{'stickyEnabled': false, 'stickyEnableOnBoxed': false, 'stickyEnableOnMobile': false, 'stickyStartAt': 0, 'stickySetTop': '60px', 'stickyChangeLogo': false}">
+			<header id="header" class="header-floating-icons" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 85}">
 				<div class="header-body bg-transparent">
 					<div class="header-container container">
 						<div class="header-row">
@@ -98,13 +98,13 @@
 															<i class="icon-pencil icons"></i>
 															<span class="custom-tooltip text-color-dark">Recommendations</span>
 														</a>
-													</li>
-													<li>
-														<a data-hash href="#blog" class="nav-link text-color-dark bg-color-primary">
-															<i class="icon-bubbles icons"></i>
-															<span class="custom-tooltip text-color-dark">Blog</span>
-														</a>
 													</li> -->
+													<li>
+														<a data-hash href="#certificate" class="nav-link text-color-dark bg-color-primary">
+															<i class="fa-solid fa-award"></i>
+															<span class="custom-tooltip text-color-dark">Certificate</span>
+														</a>
+													</li>
 													<li>
 														<a data-hash href="#say-hello" class="nav-link text-color-dark bg-color-primary">
 															<i class="icon-envelope-open icons"></i>
@@ -524,26 +524,62 @@
 							<div class="col">
 								<h2 class="text-color-light font-weight-extra-bold text-uppercase">Portfolio</h2>
 								<ul class="nav nav-pills sort-source custom-nav-sort mb-4" data-sort-id="portfolio" data-option-key="filter">
-									<li class="nav-item active" data-option-value="*"><a class="nav-link active" href="#">Show All</a></li>
+									<!-- <li class="nav-item active" data-option-value="*"><a class="nav-link active" href="#">Show All</a></li> -->
 									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="#">Websites</a></li>
-									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="#">Logos</a></li>
-									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="#">Brands</a></li>
+									<!-- <li class="nav-item" data-option-value=".logos"><a class="nav-link" href="#">Logos</a></li>
+									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="#">Brands</a></li> -->
 								</ul>
 								<div class="sort-destination-loader sort-destination-loader-showing">
 									<div class="row image-gallery sort-destination lightbox" data-sort-id="portfolio" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 										<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
 											<div class="image-gallery-item mb-4 pb-3">
-												<a href="assets-porto/img/demos/resume/portfolio/portfolio-1.jpg" class="lightbox-portfolio">
+												<a href="assets-porto/img/2.png" class="lightbox-portfolio">
 													<span class="thumb-info custom-thumb-info-1">
 														<span class="thumb-info-wrapper">
 															<span class="thumb-info-plus"></span>
-															<img src="assets-porto/img/demos/resume/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+															<img src="assets-porto/img/2.png" class="img-fluid" alt="" style="width: 1170px; height: 200px;">
 														</span>
 													</span>
 												</a>
 											</div>
 										</div>
-										<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
+										<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+											<div class="image-gallery-item mb-4 pb-3">
+												<a href="assets-porto/img/1.png" class="lightbox-portfolio">
+													<span class="thumb-info custom-thumb-info-1">
+														<span class="thumb-info-wrapper">
+															<span class="thumb-info-plus"></span>
+															<img src="assets-porto/img/1.png" class="img-fluid" alt="" style="width: 1170px; height: 200px;">
+														</span>
+													</span>
+												</a>
+											</div>
+										</div>
+										<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+											<div class="image-gallery-item mb-4 pb-3">
+												<a href="assets-porto/img/3.png" class="lightbox-portfolio">
+													<span class="thumb-info custom-thumb-info-1">
+														<span class="thumb-info-wrapper">
+															<span class="thumb-info-plus"></span>
+															<img src="assets-porto/img/3.png" class="img-fluid" alt="" style="width: 1170px; height: 200px;">
+														</span>
+													</span>
+												</a>
+											</div>
+										</div>
+										<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+											<div class="image-gallery-item mb-4 pb-3">
+												<a href="assets-porto/img/4.png" class="lightbox-portfolio">
+													<span class="thumb-info custom-thumb-info-1">
+														<span class="thumb-info-wrapper">
+															<span class="thumb-info-plus"></span>
+															<img src="assets-porto/img/4.png" class="img-fluid" alt="" style="width: 1170px; height: 200px;">
+														</span>
+													</span>
+												</a>
+											</div>
+										</div>
+										<!-- <div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
 											<div class="image-gallery-item mb-4 pb-3">
 												<a href="assets-porto/img/demos/resume/portfolio/portfolio-2.jpg" class="lightbox-portfolio">
 													<span class="thumb-info custom-thumb-info-1">
@@ -566,8 +602,8 @@
 													</span>
 												</a>
 											</div>
-										</div>
-										<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										</div> -->
+										<!-- <div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
 											<div class="image-gallery-item mb-4 pb-3">
 												<a href="assets-porto/img/demos/resume/portfolio/portfolio-4.jpg" class="lightbox-portfolio">
 													<span class="thumb-info custom-thumb-info-1">
@@ -626,7 +662,7 @@
 													</span>
 												</a>
 											</div>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</div>
@@ -672,35 +708,35 @@
 					</div>
 				</section> -->
 
-				<!-- <section id="blog" class="section section-no-border bg-color-dark m-0">
+				<section id="certificate" class="section section-no-border bg-color-dark m-0">
 					<div class="container">
 						<div class="row">
 							<div class="col">
-								<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">My Blog</h2>
+								<h2 class="text-color-light font-weight-extra-bold text-uppercase">Certificate</h2>
 
 								<div class="row">
 									<div class="col-lg-6 mb-5 mb-lg-0">
 										<article class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s">
 											<div class="thumb-info-wrapper">
 												<a href="#">
-													<img src="assets-porto/img/demos/resume/blog/blog-1.jpg" alt class="img-fluid" />
+													<img src="assets-porto/img/bnsp.jpg" alt class="img-fluid" style="width: 555px; height: 209px;" />
 												</a>
 											</div>
 											<div class="thumb-info-caption">
 												<div class="thumb-info-caption-text">
 													<h4 class="mb-2">
 														<a href="#" class="text-decoration-none text-color-light font-weight-semibold">
-															Design Driven
+															Pemrogram
 														</a>
 													</h4>
-													<p class="custom-text-color-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt nulla tortor, a imperdiet enim tristique nec. Nulla lobortis leo eget metus dapib...</p>
+													<p class="custom-text-color-2">Sertifikat kompetensi ini diberikan oleh Badan Nasional Sertifikasi Profesi (BNSP) sebagai pengakuan resmi atas kemampuan dalam bidang pemrograman. Pemegang sertifikat dinyatakan telah memenuhi standar kompetensi yang berlaku dan mampu mengimplementasikan keterampilan pemrograman secara profesional sesuai kebutuhan industri.</p>
 												</div>
 												<hr class="solid m-0 mt-4 mb-2">
 												<div class="row justify-content-between">
 													<div class="col-auto custom-blog-post-date text-uppercase font-weight-semibold text-color-light text-2">
-														July 12-2023
+														Diterbitkan Okt 2023 Kedaluwarsa Agu 2026
 													</div>
-													<div class="col-auto custom-blog-post-share text-uppercase font-weight-semibold text-color-light text-2">
+													<!-- <div class="col-auto custom-blog-post-share text-uppercase font-weight-semibold text-color-light text-2">
 														Share:
 														<ul class="mb-0">
 															<li>
@@ -713,12 +749,12 @@
 																<a class="item-google-plus text-decoration-none text-uppercase" href="#" title="Share on Google Plus">Google Plus</a>
 															</li>
 														</ul>
-													</div>
+													</div> -->
 												</div>
 											</div>
 										</article>
 									</div>
-									<div class="col-lg-6">
+									<!-- <div class="col-lg-6">
 										<article class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s">
 											<div class="thumb-info-wrapper">
 												<a href="#">
@@ -756,7 +792,7 @@
 												</div>
 											</div>
 										</article>
-									</div>
+									</div> -->
 								</div>
 							</div>
 							<div class="col-lg-12 col-sm-12 pt-4 mt-4 text-center">
@@ -764,7 +800,7 @@
 							</div>
 						</div>
 					</div>
-				</section> -->
+				</section>
 
 				<div id="say-hello" class="container-fluid" data-spy-offset="40">
 					<div class="row">
